@@ -93,3 +93,30 @@ th {
     color: #666;
     margin: 50px;
 }
+
+nav {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+li,a {
+    display: block;
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+
+}
+
+.logo {
+    float: left;
+    height: 50px;
+}
+
+#header {
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
