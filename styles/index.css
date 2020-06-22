@@ -1,0 +1,47 @@
+body{
+    max-width:1000px;
+    margin:10px 0 0 10px;
+    font-family: Roboto;
+    font-size:16px;
+    /*background-color: yellow;*/
+}
+
+h2 { 
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+h4{
+	font: italic small-caps bolder 28px arial, sans-serif;
+}
+
+.list-box{
+
+    width:100%;
+
+    overflow:hidden;
+
+}
+
+#image {
+    float: left;
+    padding: 20px 20px 20px 20px;
+    height: 200px;
+}
+
+#identity {
+    overflow: auto;
+}
+
+div{
+	/*border: 1px solid black;*/
+	margin-top: 5px;
+	padding: 20px;
+}
+.box{
+
+    /*display: inline-block;*/
+    width: 45%;
+    float:left;
+
+}
