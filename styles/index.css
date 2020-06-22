@@ -1,9 +1,9 @@
 body{
     max-width:1000px;
-    margin:10px 0 0 10px;
+    margin:auto;
     font-family: Roboto;
     font-size:16px;
-    /*background-color: yellow;*/
+   /* background-color: yellowgreen;*/
 }
 
 h2 { 
@@ -25,8 +25,8 @@ h4{
 
 #image {
     float: left;
-    padding: 20px 20px 20px 20px;
-    height: 200px;
+    padding: 0 20px 20px 20px;
+    /*height: 200px;*/
 }
 
 #identity {
@@ -38,10 +38,58 @@ div{
 	margin-top: 5px;
 	padding: 20px;
 }
+
 .box{
 
     /*display: inline-block;*/
     width: 45%;
     float:left;
 
+}
+
+#background-img {
+    /*background-image: url('img/bat_cover.jpg') ;*/
+    height: 350px;
+    padding-top: 50px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+#content {
+    max-width: 450px;
+    background-color: rgba(26, 24, 24, 0.7);
+    color: white;
+    margin-top: 100px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th,td {
+    padding: 15px;
+    border: 1px solid black;
+
+
+}
+
+th {
+    text-align: left;
+    background-color: teal;
+
+}
+
+.thumbnail {
+    display: inline-block;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: #666;
+    margin: 50px;
 }
